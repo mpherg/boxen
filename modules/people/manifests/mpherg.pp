@@ -1,10 +1,8 @@
 include homebrew
 
 class people::mpherg {
-  notify { 'class people::mpherg declared': }
 
-#  include sparrow # requires sparrow module in Puppetfile
-
+  # Get my dotfiles
   $home     = "/Users/${::boxen_user}"
   $dotfiles = "${home}/.dotfiles"
 
@@ -12,6 +10,9 @@ class people::mpherg {
     source  => 'mpherg/dotfiles',
   }
 
+  include macvim
+
+  # Homebrew packages
   package { [
            'autoconf',
            'automake',
