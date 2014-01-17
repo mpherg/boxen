@@ -49,4 +49,5 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "eclipse",    "2.3.0", :repo => "mpherg/puppet-eclipse"
 github "macvim",     "1.0.0"

@@ -10,6 +10,7 @@ class people::mpherg {
     source  => 'mpherg/dotfiles',
   }
 
+  include eclipse::cpp
   include macvim
 
   # Homebrew packages
