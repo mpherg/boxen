@@ -12,6 +12,7 @@ class people::mpherg {
 
   include eclipse::cpp
   include macvim
+  include maximumawesome
 
   # Homebrew packages
   package { [
