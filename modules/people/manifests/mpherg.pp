@@ -46,4 +46,14 @@ class people::mpherg {
           ]:
           ensure => 'present',
   }
+
+  # OSX defaults module
+  osx::recovery_message {
+    'If this Mac is found, please call 801-888-4162':
+  }
+  include osx::finder::show_all_on_desktop
+  include osx::no_network_dsstores
+  class { 'osx::global::key_repeat_delay':
+    delay => 30
+  }
 }
