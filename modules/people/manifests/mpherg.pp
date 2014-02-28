@@ -26,6 +26,7 @@ class people::mpherg {
            'fontconfig',
            'fontforge',
            'freetype',
+           'fswatch',
            'gdbm',
            'gettext',
            'graphviz',
