@@ -35,7 +35,7 @@ github "boxen", "3.3.4"
 # some/most of these if you want, but it's not recommended.
 
 github "gcc",        "2.0.100"
-github "git",        "1.3.7"
+github "git",        "2.0.0"
 github "homebrew",   "1.6.0"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "openssl",    "1.0.0"
