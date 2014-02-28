@@ -50,6 +50,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "eclipse",    "2.3.0", :repo => "mpherg/puppet-eclipse"
+github "handbrake",  "1.0.1"
 github "macvim",     "1.0.0"
 github "maximumawesome", "0.2.2", :repo=> "drewtempelmeyer/puppet-maximumawesome"
 github "osx",        "2.2.2"

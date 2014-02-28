@@ -11,6 +11,7 @@ class people::mpherg {
   }
 
   include eclipse::cpp
+  include handbrake
   include macvim
   include maximumawesome
   include quicksilver
