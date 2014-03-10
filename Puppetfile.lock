@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-eclipse
+  specs:
+    eclipse (2.3.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.0.100)
@@ -72,11 +77,6 @@ GITHUBTARBALL
   remote: drewtempelmeyer/puppet-maximumawesome
   specs:
     maximumawesome (0.2.2)
-
-GITHUBTARBALL
-  remote: mpherg/puppet-eclipse
-  specs:
-    eclipse (2.3.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
