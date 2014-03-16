@@ -79,6 +79,11 @@ GITHUBTARBALL
     maximumawesome (0.2.2)
 
 GITHUBTARBALL
+  remote: mpherg/puppet-wireshark
+  specs:
+    wireshark (1.0.5)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -106,5 +111,6 @@ DEPENDENCIES
   ruby (= 6.7.2)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  wireshark (= 1.0.5)
   xquartz (= 1.1.0)
 
