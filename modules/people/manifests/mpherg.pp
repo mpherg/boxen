@@ -60,4 +60,9 @@ class people::mpherg {
   class { 'osx::global::key_repeat_delay':
     delay => 30
   }
+
+  # Install Pygments using Python's package manager
+  exec { "install_pygments":
+    command => "easy_install pygments"
+  }
 }
