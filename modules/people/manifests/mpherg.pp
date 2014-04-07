@@ -10,6 +10,7 @@ class people::mpherg {
     source  => 'mpherg/dotfiles',
   }
 
+  include cocoapods
   include eclipse::cpp
   include handbrake
   include macvim

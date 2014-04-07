@@ -49,6 +49,7 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "cocoapods",  "1.0.0", :repo => "jjtorroglosa/puppet-cocoapods"
 github "eclipse",    "2.3.0"
 github "handbrake",  "1.0.1"
 github "macvim",     "1.0.0"
