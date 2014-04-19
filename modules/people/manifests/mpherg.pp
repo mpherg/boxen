@@ -66,4 +66,9 @@ class people::mpherg {
   exec { "install_pygments":
     command => "easy_install pygments"
   }
+
+  # Install requests using Python's package manager
+  exec { "install_requests":
+    command => "easy_install requests"
+  }
 }
