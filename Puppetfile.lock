@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.4.2)
+    boxen (3.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-eclipse
@@ -31,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.6.2)
+    homebrew (1.9.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-macvim
@@ -109,14 +109,14 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
-  boxen (= 3.4.2)
+  boxen (= 3.6.1)
   cocoapods (= 1.0.0)
   eclipse (= 2.3.0)
   firefox (= 1.1.9)
   gcc (= 2.0.100)
   git (= 2.3.0)
   handbrake (= 1.0.1)
-  homebrew (= 1.6.2)
+  homebrew (= 1.9.2)
   inifile (= 1.0.3)
   macvim (= 1.0.0)
   maximumawesome (= 0.2.2)
