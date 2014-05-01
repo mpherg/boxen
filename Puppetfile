@@ -55,6 +55,7 @@ github "xquartz",    "1.1.1"
 
 github "cocoapods",  "1.0.0", :repo => "jjtorroglosa/puppet-cocoapods"
 github "eclipse",    "2.3.0"
+github "firefox",    "1.1.9"
 github "handbrake",  "1.0.1"
 github "macvim",     "1.0.0"
 github "maximumawesome", "0.2.2", :repo => "drewtempelmeyer/puppet-maximumawesome"

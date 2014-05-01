@@ -12,6 +12,7 @@ class people::mpherg {
 
   include cocoapods
   include eclipse::cpp
+  include firefox
   include handbrake
   include macvim
   include maximumawesome
