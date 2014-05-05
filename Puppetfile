@@ -53,12 +53,13 @@ github "xquartz",    "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "cocoapods",  "1.0.0", :repo => "jjtorroglosa/puppet-cocoapods"
-github "eclipse",    "2.3.0"
-github "firefox",    "1.1.9"
-github "handbrake",  "1.0.1"
-github "macvim",     "1.0.0"
+github "eclipse"
+github "firefox"
+github "handbrake"
+github "macvim"
+github "quicksilver"
+
+github "cocoapods"     , "1.0.0", :repo => "jjtorroglosa/puppet-cocoapods"
 github "maximumawesome", "0.2.2", :repo => "drewtempelmeyer/puppet-maximumawesome"
-github "osx",        "2.2.2"
-github "quicksilver","1.3.0"
-github "wireshark",  "1.0.5", :repo=> "mpherg/puppet-wireshark"
+github "osx"           , "2.4.0"
+github "wireshark"     , "1.0.5", :repo => "mpherg/puppet-wireshark"
