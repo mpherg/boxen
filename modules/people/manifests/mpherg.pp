@@ -74,4 +74,10 @@ class people::mpherg {
   exec { "install_requests":
     command => "easy_install requests"
   }
+
+  # Install veewee
+  ruby::gem { "veewee":
+    gem => 'veewee',
+    ruby => '2.0.0'
+  }
 }
