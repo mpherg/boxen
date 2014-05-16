@@ -21,6 +21,7 @@ class people::mpherg {
 
   # Homebrew packages
   package { [
+           'archey',
            'autoconf',
            'automake',
            'cmake',
