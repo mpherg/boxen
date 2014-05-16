@@ -33,6 +33,7 @@ class people::mpherg {
            'fswatch',
            'gdbm',
            'gettext',
+           'gpg',
            'graphviz',
            'jpeg',
            'libevent',
