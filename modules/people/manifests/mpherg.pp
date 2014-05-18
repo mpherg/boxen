@@ -17,6 +17,7 @@ class people::mpherg {
   include macvim
   include maximumawesome
   include quicksilver
+  include virtualbox
   include wireshark
 
   # Homebrew packages

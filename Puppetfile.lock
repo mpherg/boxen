@@ -74,6 +74,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
@@ -129,6 +134,7 @@ DEPENDENCIES
   ruby (= 7.3.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  virtualbox (>= 0)
   wireshark (= 1.0.5)
   xquartz (= 1.1.1)
 
