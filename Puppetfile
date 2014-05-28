@@ -64,6 +64,8 @@ github "eclipse"
 github "firefox"
 github "handbrake"
 github "macvim"
+github "pkgconfig"
+github "python"
 github "quicksilver"
 
 github "cocoapods"     , "1.0.0", :repo => "jjtorroglosa/puppet-cocoapods"

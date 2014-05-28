@@ -16,24 +16,23 @@ class people::mpherg {
   include handbrake
   include macvim
   include maximumawesome
+  include pkgconfig
+  include python
   include quicksilver
   include virtualbox
   include wireshark
 
   # Homebrew packages
   package { [
-           'archey',
            'autoconf',
            'automake',
            'cmake',
            'ctags',
            'doxygen',
            'fontconfig',
-           'fontforge',
            'freetype',
            'fswatch',
            'gdbm',
-           'gettext',
            'gpg',
            'graphviz',
            'jpeg',
@@ -43,8 +42,6 @@ class people::mpherg {
            'maven',
            'mercurial',
            'pcre',
-           'pkg-config',
-           'python',
            'readline',
            'reattach-to-user-namespace',
            'sqlite',
@@ -67,13 +64,17 @@ class people::mpherg {
   }
 
   # Install Pygments using Python's package manager
-  exec { "install_pygments":
-    command => "easy_install pygments"
+  exec { "Install Pygments":
+    command => "easy_install pygments",
+    unless => "which pygmentize",
+    subscribe => Class["python"]
   }
 
   # Install requests using Python's package manager
-  exec { "install_requests":
-    command => "easy_install requests"
+  exec { "Install Requests":
+    command => "easy_install requests",
+    unless => "which requests",
+    subscribe => Class["python"]
   }
 
   # Install veewee
