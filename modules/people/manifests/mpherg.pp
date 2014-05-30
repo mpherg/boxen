@@ -22,8 +22,12 @@ class people::mpherg {
   include virtualbox
   include wireshark
 
+  # Add custom Homebrew Atlassian tap
+  homebrew::tap { 'atlassian/tap': }
+
   # Homebrew packages
   package { [
+           'atlassian/tap/atlassian-plugin-sdk',
            'autoconf',
            'automake',
            'cmake',
