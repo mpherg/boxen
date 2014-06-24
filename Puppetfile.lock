@@ -16,7 +16,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-eclipse
   specs:
-    eclipse (2.3.0)
+    eclipse (2.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
-    osx (2.5.0)
+    osx (2.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
