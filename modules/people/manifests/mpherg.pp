@@ -15,6 +15,7 @@ class people::mpherg {
   include eclipse::java
   include firefox
   include handbrake
+  include java
   include mactex::full
   include macvim
   include maximumawesome
