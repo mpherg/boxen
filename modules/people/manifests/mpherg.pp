@@ -10,7 +10,8 @@ class people::mpherg {
     source  => 'mpherg/dotfiles',
   }
 
-  include cocoapods
+  include projects::all
+
   include eclipse::cpp
   include eclipse::java
   include firefox
@@ -19,20 +20,15 @@ class people::mpherg {
   include mactex::full
   include macvim
   include maximumawesome
-  include pkgconfig
-  include python
   include quicksilver
   include virtualbox
   include wireshark
 
-  # Add custom Homebrew Atlassian tap
-  homebrew::tap { 'atlassian/tap': }
-
   # Homebrew packages
   package { [
-           'atlassian/tap/atlassian-plugin-sdk',
            'autoconf',
            'automake',
+           'boost',
            'cmake',
            'ctags',
            'doxygen',
@@ -46,12 +42,12 @@ class people::mpherg {
            'libevent',
            'libpng',
            'libtiff',
-           'maven',
            'mercurial',
            'pcre',
            'readline',
            'reattach-to-user-namespace',
            'sqlite',
+           'swig',
            'the_silver_searcher',
            'tmux',
            'tree',
@@ -68,20 +64,6 @@ class people::mpherg {
   include osx::no_network_dsstores
   class { 'osx::global::key_repeat_delay':
     delay => 30
-  }
-
-  # Install Pygments using Python's package manager
-  exec { "Install Pygments":
-    command => "easy_install pygments",
-    unless => "which pygmentize",
-    subscribe => Class["python"]
-  }
-
-  # Install requests using Python's package manager
-  exec { "Install Requests":
-    command => "easy_install requests",
-    unless => "which requests",
-    subscribe => Class["python"]
   }
 
   # Install veewee
