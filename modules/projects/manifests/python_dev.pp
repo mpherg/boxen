@@ -4,7 +4,7 @@ class projects::python_dev {
   define install_python_packages {
     exec { "Install $name":
       command => "easy_install $name",
-      unless  => "which $name",
+      unless  => "python -c 'import $name'",
       subscribe => Class['python']
     }
   }

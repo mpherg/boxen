@@ -67,8 +67,8 @@ class people::mpherg {
   }
 
   # Install veewee
-  ruby::gem { "veewee":
-    gem => 'veewee',
-    ruby => '2.0.0'
+  ruby_gem { "veewee":
+    gem          => 'veewee',
+    ruby_version => '2.0.0'
   }
 }
