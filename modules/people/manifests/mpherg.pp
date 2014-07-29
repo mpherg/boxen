@@ -38,10 +38,8 @@ class people::mpherg {
   include java
   include mactex::full
   include macvim
-  include maximumawesome
   include quicksilver
   include virtualbox
-  include wireshark
 
   # Homebrew packages
   package { [

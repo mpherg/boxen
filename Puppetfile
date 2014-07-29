@@ -74,5 +74,3 @@ github "virtualbox"
 
 github "cocoapods"     , "1.1.0", :repo => "mpherg/puppet-cocoapods"
 github "mactex"        , "0.1.0", :repo => "Omegaice/puppet-mactex"
-github "maximumawesome", "0.2.2", :repo => "drewtempelmeyer/puppet-maximumawesome"
-github "wireshark"     , "1.0.5", :repo => "mpherg/puppet-wireshark"
