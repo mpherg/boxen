@@ -1,6 +1,9 @@
-class projects::python_dev {
+class people::mpherg::python_dev {
   require python
-  notify { 'Installing Python components': }
+
+  include pkgconfig
+  include python
+
 
   define install_python_packages {
     exec { "Install $name":
@@ -9,9 +12,6 @@ class projects::python_dev {
       subscribe => Class['python'],
     }
   }
-
-  include pkgconfig
-  include python
 
   # Homebrew packages
   package { 'pygtk' : ensure => 'present' }

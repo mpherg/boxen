@@ -1,6 +1,4 @@
-class projects::atlassian {
-  notify { 'Installing Atlassian SDK components': }
-
+class people::mpherg::atlassian {
   # Add custom Homebrew Atlassian tap
   homebrew::tap { 'atlassian/tap': }
 
