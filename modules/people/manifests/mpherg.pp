@@ -3,6 +3,7 @@ include homebrew
 class people::mpherg {
 
   include people::mpherg::atlassian
+  include people::mpherg::dnscrypt
   include people::mpherg::dotfiles
   include people::mpherg::lds_dev
   include people::mpherg::osx_defaults

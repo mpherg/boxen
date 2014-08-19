@@ -1,12 +1,13 @@
 include homebrew
 
-# Ensure that dnscrypt-proxy is installed before we try to start the service
-package { 'dnscrypt-proxy' :
-  ensure => 'present',
-  before => Project['dnscrypt'],
-}
 
-class projects::dnscrypt {
+class people::mpherg::dnscrypt {
+
+  # Ensure that dnscrypt-proxy is installed before we try to start the service
+  package { 'dnscrypt-proxy' :
+    ensure => 'present',
+    before => Service['homebrew.mxcl.dnscrypt-proxy'],
+  }
 
   # This is ugly, but it works. I'm sure there's a better way...
   file { '/Library/LaunchDaemons/homebrew.mxcl.dnscrypt-proxy.plist':
