@@ -7,6 +7,7 @@ class people::mpherg::base {
   include macvim
   include people::mpherg::osx_defaults
   include quicksilver
+  include spectacle
 
   package { [
     'tmux',

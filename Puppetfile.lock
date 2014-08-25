@@ -124,6 +124,11 @@ GITHUBTARBALL
     ruby (8.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spectacle
+  specs:
+    spectacle (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -187,6 +192,7 @@ DEPENDENCIES
   quicksilver (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.2)
+  spectacle (>= 0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   virtualbox (>= 0)

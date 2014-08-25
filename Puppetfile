@@ -69,6 +69,7 @@ github "macvim"
 github "osx"
 github "python"
 github "quicksilver"
+github "spectacle"
 github "virtualbox"
 
 github "cocoapods"     , "1.1.0", :repo => "mpherg/puppet-cocoapods"
