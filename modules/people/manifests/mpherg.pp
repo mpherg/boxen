@@ -5,6 +5,7 @@ class people::mpherg {
   include people::mpherg::base
   include people::mpherg::development
 
+  include people::mpherg::alfred
   include people::mpherg::atlassian
   include people::mpherg::dnscrypt
   include people::mpherg::lds_dev

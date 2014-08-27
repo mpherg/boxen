@@ -60,6 +60,7 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "alfred"
 github "eclipse"
 github "firefox"
 github "handbrake"
