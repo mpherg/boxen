@@ -11,7 +11,8 @@ class people::mpherg::base {
 
   package { [
     'tmux',
-    'tree'
+    'tree',
+    'watch',
     ]:
     ensure => 'present',
   }
