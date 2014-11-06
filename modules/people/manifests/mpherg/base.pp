@@ -1,6 +1,6 @@
 class people::mpherg::base {
   include people::mpherg::dotfiles
-  include people::mpherg::firefox
+  include people::mpherg::web
   include people::mpherg::handbrake
   include people::mpherg::iterm2
   include java
