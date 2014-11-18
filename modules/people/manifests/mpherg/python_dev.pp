@@ -1,9 +1,7 @@
 class people::mpherg::python_dev {
   require python
 
-  include pkgconfig
   include python
-
 
   define install_python_packages {
     exec { "Install $name":
@@ -13,15 +11,10 @@ class people::mpherg::python_dev {
     }
   }
 
-  # Homebrew packages
-  package { 'pygtk' : ensure => 'present' }
-
   install_python_packages { [
     'pygments',
     'requests',
     'Cheetah',
-    'lxml',
-    'numpy',
     ]:
   }
 }
