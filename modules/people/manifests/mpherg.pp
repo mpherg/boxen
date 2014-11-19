@@ -4,6 +4,7 @@ class people::mpherg {
 
   include people::mpherg::base
   include people::mpherg::development
+  include people::mpherg::android_dev
 
   include people::mpherg::alfred2
   include people::mpherg::atlassian

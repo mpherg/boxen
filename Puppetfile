@@ -61,6 +61,7 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "alfred"
+github "android"
 github "dropbox"
 github "eclipse"
 github "firefox"
