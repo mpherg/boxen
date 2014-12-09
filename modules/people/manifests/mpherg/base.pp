@@ -10,6 +10,7 @@ class people::mpherg::base {
   include spectacle
 
   package { [
+    'dos2unix',
     'tmux',
     'tree',
     'watch',
