@@ -13,7 +13,6 @@ class people::mpherg::development {
     'freetype',
     'fswatch',
     'gdbm',
-    'gpg',
     'graphviz',
     'jpeg',
     'libevent',

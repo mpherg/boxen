@@ -77,5 +77,3 @@ github "virtualbox", "1.0.12"
 
 github "cocoapods"     , "1.1.1", :repo => "mpherg/puppet-cocoapods"
 github "mactex"        , "0.1.0", :repo => "Omegaice/puppet-mactex"
-#github "ohmyzsh"       , "1.0.0", :repo => "erivello/puppet-ohmyzsh"
-#github "powerline"     , "1.0.7", :repo => "paulcollinsiii/puppet-powerline"
