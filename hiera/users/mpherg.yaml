@@ -1,0 +1,5 @@
+---
+# See https://github.com/boxen/puppet-ruby for docs
+
+virtualbox::version: 4.3.20
+virtualbox::patch_level: 96996
