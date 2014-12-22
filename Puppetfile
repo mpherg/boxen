@@ -73,7 +73,7 @@ github "osx"
 github "python"
 github "quicksilver"
 github "spectacle"
-github "virtualbox"
 
 github "cocoapods"     , "1.1.1", :repo => "mpherg/puppet-cocoapods"
 github "mactex"        , "0.1.0", :repo => "Omegaice/puppet-mactex"
+github "virtualbox"    , "1.0.13", :repo => "boxen/puppet-virtualbox"

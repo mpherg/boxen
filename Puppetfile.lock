@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.9)
+    virtualbox (1.0.13)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -213,6 +213,6 @@ DEPENDENCIES
   spectacle (>= 0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
-  virtualbox (>= 0)
+  virtualbox (= 1.0.13)
   xquartz (= 1.2.1)
 
