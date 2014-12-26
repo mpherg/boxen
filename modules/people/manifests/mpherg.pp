@@ -16,6 +16,7 @@ class people::mpherg {
 #  include ohmyzsh
 #  include powerline
   include virtualbox
+  include zsh
 
   # Install veewee
 #  ruby_gem { "veewee":
