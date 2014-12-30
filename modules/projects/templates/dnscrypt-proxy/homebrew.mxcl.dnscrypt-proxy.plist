@@ -12,7 +12,9 @@
     <array>
       <string>/opt/boxen/homebrew/opt/dnscrypt-proxy/sbin/dnscrypt-proxy</string>
       <string>--user=nobody</string>
-      <string>--resolver-name=opennic-us-ca-ns17</string>
+      <string>--resolver-address=23.226.230.72:1053</string>
+      <string>--provider-name=2.dnscrypt-cert.hallowe.lt</string>
+      <string>--provider-key=32E5:B8D6:7495:DAC0:D286:8020:830D:8432:F552:3ACF:1818:7F46:3D25:2308:25A2:6A93</string>
     </array>
     <key>UserName</key>
     <string>root</string>
