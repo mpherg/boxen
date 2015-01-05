@@ -13,7 +13,7 @@ class people::mpherg {
 
   include dropbox
   include mactex::full
-#  include ohmyzsh
+  include ohmyzsh
 #  include powerline
   include virtualbox
   include zsh
