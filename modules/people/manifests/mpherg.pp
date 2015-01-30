@@ -13,14 +13,15 @@ class people::mpherg {
 
   include dropbox
   include mactex::full
+  include oclint
   include ohmyzsh
-#  include powerline
+  include vagrant
   include virtualbox
   include zsh
 
   # Install veewee
-#  ruby_gem { "veewee":
-#    gem          => 'veewee',
-#    ruby_version => '2.0.0'
-#  }
+  ruby_gem { "veewee":
+    gem          => 'veewee',
+    ruby_version => '2.0.0'
+  }
 }
