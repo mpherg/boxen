@@ -62,6 +62,7 @@ github "xquartz",     "1.2.1"
 
 github "alfred"
 github "android"
+github "docker"
 github "dropbox"
 github "eclipse"
 github "firefox"

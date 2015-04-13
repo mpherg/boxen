@@ -24,6 +24,11 @@ GITHUBTARBALL
     dnsmasq (2.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-docker
+  specs:
+    docker (0.8.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.4.1)
@@ -204,6 +209,7 @@ DEPENDENCIES
   boxen (= 3.7.0)
   cocoapods (= 1.1.1)
   dnsmasq (= 2.0.1)
+  docker (>= 0)
   dropbox (>= 0)
   eclipse (>= 0)
   firefox (>= 0)

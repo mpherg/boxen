@@ -1,6 +1,7 @@
 class people::mpherg::development {
 
   include people::mpherg::python_dev
+  include docker
 
   # Homebrew packages
   package { [
